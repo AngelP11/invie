@@ -1,0 +1,228 @@
+body{
+	font-family: 'Allerta', sans-serif;
+	margin: 0;
+}
+
+table{
+	width: 100%;
+}
+
+th{
+	background: #294152;
+	color: white;
+	padding: 10px 20px; 
+	text-align: left;
+}
+
+td{
+	padding: 20px;
+}
+
+table, th, td{
+	border: 1px solid #294152;
+	border-collapse: collapse;
+}
+
+input, textarea{
+	outline: 0;
+}
+
+input:focus, textarea:focus{
+	background: lightgray;
+}
+
+.contenedor{
+	width: 800px;
+	margin: auto;
+	position: relative;
+}
+
+.background{
+	background-image: url(../images/background.png);
+	background-size: cover; 
+}
+
+.tabla{
+	padding: 50px 0;
+}
+
+.titulo{
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 70px;
+	margin-bottom: 0;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+
+.slogan{
+	font-size: 24px;
+	margin-top: 0;
+}
+
+.boton{
+	margin-bottom: 70px;
+	margin-top: 0;
+	padding: 7px 12px;
+	border: none;
+	border-radius: 12px;
+	cursor: pointer; /*Esta propiedad hace que cuando pasemos el cursor sobre el boton se ponga la manito*/
+	background: linear-gradient(to left, #fe344e, #ff7250); /*Se logra el degradado del boton*/
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+.guitarras{
+	color: #1F313C;
+	margin-bottom: 50px;
+}
+
+.guitarras h2{
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.guitarra{
+	padding: 20px;
+	margin: 10px 10px 30px 10px;
+	border: 1px solid #1F313C;
+	border-radius: 8px;
+}
+
+.guitarra.b{
+	height: 190px;
+}
+
+.guitarra ol{
+	padding: 0;
+}
+
+.right{
+	float: right;
+	position: relative;
+	bottom: 117px;
+}
+
+.left{
+	float: left;
+	position: relative;
+}
+
+.contenedor-guitarra-a{
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b{
+	margin-left: 370px;
+	position: relative;
+	bottom: 70px;
+}
+
+.titulo-g{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.portada{
+	color: white;
+	padding: 20px;
+	height: 500px;
+}
+
+.logotipo{
+	display: inline-block;
+	margin-left: 0;
+}
+
+.menu{
+	font-size: 24px;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+}
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+.menu li:before{
+	content: '∘';
+	color: white;
+}
+
+.header{
+	position: relative;
+}
+
+.footer{
+	background: #294152;
+	padding: 50px 10px;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacto{
+	display: flex;
+	width: 330px;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 150px;
+}
+
+.contacto a{
+	color: white;
+	text-decoration: none;
+	margin: 20px 10px 10px 0;
+}
+
+.contacto img, strong{
+	display: block;
+}
+
+.formulario{
+	display: flex;
+	width: 400px;
+	color: white;
+}
+
+.formulario label, .intereses{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 10px;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px;
+}
+
+.col2{
+	align-items: flex-start;
+}
+
+.col2 input{
+	margin-top: 10px;
+}
+
+.intereses label{
+	font-size: 12px;
+}
